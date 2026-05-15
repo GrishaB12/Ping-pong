@@ -51,7 +51,7 @@ class Player(GameSprite):
             
 ship = Player("rocket.png", win_width - 50, win_height - 80, 10)
 ship2 = Player("rocket.png", win_width - 700, win_height - 80, 10)
-ball = GameSprite('ufo.png', win_width - 350, win_height - 250, 10 )
+ball = GameSprite('ball.png', win_width - 350, win_height - 250, 10 )
 speed_x = 3
 speed_y = 3
 
